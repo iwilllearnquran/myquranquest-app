@@ -214,3 +214,60 @@ Lists files/folders Git should **ignore** (e.g., `node_modules`, `.expo`, build 
 
 👉 Do you want me to generate a **tree view of your repo** (like `tree /f` style) so I can explain **each actual file inside your project**, not just the typical Expo structure?
 
+
+
+Nice 🚀 let’s make your **README** much more contributor-friendly by adding a **visual project tree** + explanations for each folder/file.
+
+Since I don’t yet have your exact file list, I’ll assume the **standard Expo Router template** and create a structured section. Once you paste/upload your `tree` output, I’ll refine it to match exactly.
+
+---
+
+## 📂 Suggested “Project Structure” section for README
+
+```markdown
+## 📂 Project Structure
+
+```
+
+myquranquest-app/
+├── app/                  # All screens & routes (Expo Router)
+│   ├── \_layout.tsx       # Root layout & navigation
+│   ├── index.tsx         # Home screen
+│   └── (more screens…)   # Each file/folder = a route
+│
+├── assets/               # Static files (images, fonts, icons, splash)
+│   ├── icon.png
+│   ├── splash.png
+│   └── fonts/
+│
+├── .expo/                # Auto-generated Expo cache (safe to delete)
+├── .expo-shared/         # Shared settings for assets
+├── .gitignore            # Files/folders ignored by Git
+├── app.json              # Main Expo app config
+├── eas.json              # EAS build profiles (production, preview, dev)
+├── package.json          # Dependencies & scripts
+├── tsconfig.json         # TypeScript compiler config
+├── babel.config.js       # Babel setup for Expo
+└── README.md             # Project documentation
+
+```
+
+### 📝 Explanation
+
+- **`app/`** → Core app logic & navigation (file-based routing).  
+- **`assets/`** → Images, fonts, and splash resources bundled with app.  
+- **`.expo/`** → Local Expo settings (auto-generated).  
+- **`.expo-shared/`** → Shared metadata for assets.  
+- **`app.json`** → App name, icons, splash, and runtime config.  
+- **`eas.json`** → Defines build targets (AAB for Play Store, APK for testing).  
+- **`package.json`** → Project dependencies & scripts.  
+- **`tsconfig.json`** → Ensures strong typing & editor support.  
+- **`babel.config.js`** → Controls code compilation (React Native + Expo).  
+
+---
+
+👉 This section makes it crystal clear for **new contributors or teammates** what lives where.  
+
+Would you like me to **embed this tree view directly into the README I wrote earlier**, so it’s one polished file you can copy-paste into your repo?
+```
+
