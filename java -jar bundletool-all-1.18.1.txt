@@ -1,0 +1,7 @@
+java -jar bundletool-all-1.18.1.jar build-apks --bundle=application-ee927c95-64f6-4137-9ea8-02466c9e4585.aab --output=myapp.apks --mode=universal --ks=@learnquran786__myquranquest-app.jks --ks-key-alias=1158475b46a09662e0726b3927cc0afb --ks-pass=pass:38c0f5cc1eed11626b34e91a094ea6a7 --key-pass=pass:6893642cca8c2cd7d1aee367a82eb048
+
+
+
+java -jar bundletool-all-1.18.1.jar install-apks --apks=myapp.apks --adb="C:\path\to\platform-tools\adb.exe"
+java -jar bundletool-all-1.18.1.jar install-apks --apks=your_file.apks
+
