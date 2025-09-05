@@ -1,3 +1,28 @@
+Repository Overview
+
+This GitHub repo iwilllearnquran/myquranquest-app is an Expo-based React Native app. It uses file-based routing, TypeScript, and the standard Expo stack. This setup lets users test the app via Expo Go or run it on emulators or simulators. The current README.md reflects the default template from create-expo-app: install, start, and basic instructions.
+
+# My Qur’an Quest
+
+A mobile learning app built with [Expo](https://expo.dev/) and React Native to help you explore the Qur’an journey—right from your pocket.
+
+##  Features
+
+- Clean UI with intuitive navigation using file-based routing.
+- Supports development & testing via Expo Go.
+- TypeScript for safer, scalable code.
+- Prepared for EAS builds (APK, AAB, Dev Client).
+
+##  Prerequisites
+
+- **Node.js** (LTS version recommended)
+- **Yarn** or **npm**
+- **Expo CLI**:  
+  ```sh
+  npm install --global expo-cli
+
+
+----------------------------------------------------------------------------------------
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
